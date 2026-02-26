@@ -7,12 +7,12 @@ public class Calculos {
                 Informe a opção que quer!
                 1 - Área do Quadrado.
                 2 - Área do Círculo.
-                """;
+                """; // Esta variável irá armazenar este texto para, mais na frente, eu exibir ela.
         System.out.println(opcExplicacao);
         int opc = leitura.nextInt();
         double area;
 
-        switch (opc){
+        switch (opc){ // Seria a melhor sintaxe para códigos envolvendo escolhas/menu.
             case 1:
                 System.out.println("Me diga o tamanho de um dos lados");
                 area = leitura.nextDouble();
